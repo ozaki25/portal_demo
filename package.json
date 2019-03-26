@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "npx parcel-bundler index.html"
+    "start": "npx parcel-bundler index.html",
+    "build": "npx parcel-bundler build -d build index.html",
+    "deploy": "yarn build --public-url /portal_demo && cd build && git init && git add -A && git commit -m 'deploy' && git push -f git@github.com:ozaki25/portal_demo.git master:gh-pages && cd -"
   },
   "dependencies": {
     "react": "^16.8.5",
