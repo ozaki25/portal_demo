@@ -9,7 +9,7 @@ export default [
     title: 'Twitter',
     icon:
       'https://abs.twimg.com/responsive-web/web/icon-ios.8ea219d08eafdfa41.png',
-    link: 'https://mobile.twitter.com/ozaki25rn',
+    link: 'https://twitter.com/ozaki25rn',
   },
   {
     title: 'HatenaBlog',
