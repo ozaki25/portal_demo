@@ -11,7 +11,7 @@ function App() {
   });
   return (
     <>
-      <Navbar title="Portal Demo" />
+      <Navbar title="Portals Demo" />
       <div className="container">
         <Title text="ozaki25's Link" />
         {rows.map(([link1, link2], i) => (
