@@ -13,7 +13,7 @@ function App() {
         <div className="row">
           {links.map((link, i) => (
             <>
-              <div className="col" key={i}>
+              <div className="col">
                 <PreviewCard {...link} />
               </div>
               {i % 2 === 1 && <div className="w-100 mb-3" />}
